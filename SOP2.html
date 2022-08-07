@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="S5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sunny_Code/SOP2</title>
+</head>
+
+<body>
+    <header class="stiky">
+        <nav class="navbar2co">
+            <div class="logo">
+                <a href="index.html">Sunny<span>Code</span></a>
+            </div>
+            <div class="main">
+                <ul>
+                    <li class="l3"><a class="a3" href="signup.html">SignUp</a></li>
+                    <li class="l4"><a class="a3" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <header class="hearder2co">
+        <nav>
+            <div class="navbar2courses">
+                <a href="index.html"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+                <a href="login.html"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </nav>
+    </header>
+    <section class="title">
+        <div class="myproj">Project</div>
+        <span>
+            <p>12th I.T.</p>
+        </span>
+    </section>
+    <section class="SOPin">
+        <h1><span>SOP 2</span> : <h2>Create a webpage using HTML and CSS code to design a web page as the layout
+                displayed below.</h2>
+            <p class="psop">
+
+                The top section will display the heading , ‘Tourist places’ in header. The
+                section on the left has list of cities. The right hand side displays tourist places
+                of any one of the city . <br>
+                Use Inline style sheet in the top section to display background color for the
+                text ‘Tourist places’. Use internal stylesheet for the left and right section
+                with background color and font styles.
+                <br>
+            </p>
+            <div class="imagesop">
+                <b>Output :</b>
+                <img src="Screenshot 2022-08-06 104110.png" alt="pagr112">
+            </div>
+        </h1>
+        <div class="code-toolbar">
+            <b>Code :</b>
+            <pre class="language-python" tabindex="0"><code class="language-python">
+<span class="token keyword"><</span>!Doctype HTML<span class="token keyword">></span>
+<span class="token keyword"><</span>HTML<span class="token keyword">></span>
+<span class="token keyword"><</span>head<span class="token keyword">></span>
+<span class="token keyword"><</span>title<span class="token keyword">></span>SOP2<span class="token keyword"><</span>/title<span class="token keyword">></span> 
+<span class="token keyword"><</span>head<span class="token keyword">></span>
+<span class="token keyword"><</span>Style<span class="token keyword">></span>
+<span class="token keyword">header</span>{<span class="token function "> color: #ff2249 ; width: 100% ; height: 40% ;</span>}
+<span class="token keyword">section</span>{<span class="token function "> background-color: yellow ; width: 50% ; height: 20% ; float: left ;</span>}
+<span class="token keyword">aside</span>{<span class="token function "> background-color: pink ; width: 50% ; height: 20% ; float: right ;</span>}
+<span class="token keyword"><</span>/Style<span class="token keyword">></span>
+<span class="token keyword"><</span>/Head<span class="token keyword">></span>
+<span class="token keyword"><</span>Body<span class="token keyword">></span>
+<span class="token keyword"><</span>Header<span class="token keyword">></span>
+<span class="token keyword"><</span>H1 style=" background-color: skyblue " align="center"<span class="token keyword">></span>Tourist Places<span class="token keyword"><</span>/H1<span class="token keyword">></span>
+<span class="token keyword"><</span>/Header<span class="token keyword">></span>
+<span class="token keyword"><</span>Section<span class="token keyword">></span>
+<span class="token keyword"><</span>B<span class="token keyword">></span>City<span class="token keyword"><</span>/B<span class="token keyword">></span>
+<span class="token keyword"><</span>br<span class="token keyword">></span>
+<span class="token keyword"><</span>ol<span class="token keyword">></span>
+<span class="token keyword"><</span>li<span class="token keyword">></span> Banglore
+<span class="token keyword"><</span>li<span class="token keyword">></span> Hyderabad
+<span class="token keyword"><</span>li<span class="token keyword">></span> Delhi
+<span class="token keyword"><</span>li<span class="token keyword">></span> Pune
+<span class="token keyword"><</span>/ol<span class="token keyword">></span>
+<span class="token keyword"><</span>/Section<span class="token keyword">></span>
+<span class="token keyword"><</span>Aside<span class="token keyword">></span>
+<span class="token keyword"><</span>B<span class="token keyword">></span>Tourist places in pune<span class="token keyword"><</span>/B<span class="token keyword">></span>
+<span class="token keyword"><</span>br<span class="token keyword">></span>
+<span class="token keyword"><</span>ul<span class="token keyword">></span>
+<span class="token keyword"><</span>li<span class="token keyword">></span> Shaniwarwada
+<span class="token keyword"><</span>li<span class="token keyword">></span> Kelkar Museum
+<span class="token keyword"><</span>li<span class="token keyword">></span> Sinhgad Fort
+<span class="token keyword"><</span>li<span class="token keyword">></span> Pune
+<span class="token keyword"><</span>/ul<span class="token keyword">></span>
+<span class="token keyword"><</span>/Aside<span class="token keyword">></span>
+<span class="token keyword"><</span>/Body<span class="token keyword">></span>
+<span class="token keyword"><</span>/html<span class="token keyword">></span>
+                </code></pre>
+            <div class="toolbar">
+                <div class="toolbar-item"><button class="copy-to-clipboard-button" type="button"
+                        data-copy-state="copy"><span>Copy</span></button></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="right">
+            <img class="logoin" src="logo.jpg" alt="logo">
+            <h1 class="head3">SunnyCode</h1>
+            <p>Copyright &#169; 2022 Sunny_Code.in</p>
+        </div>
+        <div class="left">
+            <div class="fa fa-icon">
+                <a href="#"><i class="fa fa-instagram fa-1.50x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-1.50x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-github fa-1.50x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook fa-1.50x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
