@@ -1023,7 +1023,7 @@ select {
     }
 
     .right p {
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
     .forms {
@@ -1038,12 +1038,25 @@ select {
         width: 95%;
     }
 
-    .pervi a{
+    .pervi {
+        flex-wrap: wrap;
+    }
+
+    .pervi a {
         font-size: 10px;
         padding: 20px;
         margin: 0px 0px 30px 10px;
         padding: 5px 15px;
     }
 
+    .logo {
+        padding: 0 0px 0 10px;
+    }
 
+    .head3 {
+        padding: 14px;
+    }
+    .logoin {
+        margin: 0;
+        }
 }

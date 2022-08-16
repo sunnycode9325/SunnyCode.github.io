@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="S5.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Sunny_Code/SOP5</title>
+    <title>Sunny_Code/SOP6</title>
 </head>
 
 <body>
@@ -34,30 +34,34 @@
     </header>
     <section class="title">
         <div class="myproj">Project</div>
-        <span><p>12th I.T.</p></span>
+        <span>
+            <p>12th I.T.</p>
+        </span>
     </section>
     <section class="SOPin">
-        <h1><span>SOP 5</span>  : <h2>Use of Audio on web pages using HTML5.</h2><p class="psop"><b>1) </b>
-            Create a webpage named audio.html to set an audio file in web page with
-            controls such that it uses HTML5 elements. The audio file must play as soon
-            as the webpage loads in browser and it will start over again, every time
-            when it is completed.<br>
-                <b>Create a file  "audio.html"  </b><br></p></h1>
+        <h1><span>SOP 6</span> : <h2>Use of video on web pages using html5.</h2>
+            <p class="psop"><b>1) </b>
+                Create a webpage named video.HTML to display a video file on web page
+                and plays automatically with controls. The dimension of video area should
+                be 150 * 150 pixels.<br>
+                <b>Create a file "video.HTML" </b><br>
+            </p>
+        </h1>
         <div class="code-toolbar">
             <b>Code :</b>
             <pre class="language-python" tabindex="0"><code class="language-python">
 <span class="token keyword"><</span>!Doctype HTML<span class="token keyword">></span>
 <span class="token keyword"><</span>HTML<span class="token keyword">></span>
 <span class="token keyword"><</span>Head<span class="token keyword">></span>
-<span class="token keyword"><</span>title<span class="token keyword">></span>Audio controls<span class="token keyword"><</span>/title<span class="token keyword">></span> 
+<span class="token keyword"><</span>title<span class="token keyword">></span>Video controls<span class="token keyword"><</span>/title<span class="token keyword">></span> 
 <span class="token keyword"><</span>head<span class="token keyword">></span>
 <span class="token keyword"><</span>/Head<span class="token keyword">></span>
 <span class="token keyword"><</span>Body<span class="token keyword">></span>
-<span class="token keyword"><</span>H1 align="center"<span class="token keyword">></span>Audio<span class="token keyword"><</span>/H1<span class="token keyword">></span>
+<span class="token keyword"><</span>H1 align="center"<span class="token keyword">></span>Video<span class="token keyword"><</span>/H1<span class="token keyword">></span>
 <span class="token keyword"><</span>br<span class="token keyword">></span><span class="token keyword"><</span>br<span class="token keyword">></span>
-<span class="token keyword"><</span>audio controls<span class="token keyword">></span>
-<span class="token keyword"><</span>source src="song.mp3" type="audio/mp3"<span class="token keyword">></span>
-<span class="token keyword"><</span>/audio<span class="token keyword">></span>
+<span class="token keyword"><</span>video  width="150" height="150" controls autoplay<span class="token keyword">></span>
+<span class="token keyword"><</span>source src="movie.mp4" type="video/mp4"<span class="token keyword">></span>
+<span class="token keyword"><</span>/vdieo<span class="token keyword">></span>
 <span class="token keyword"><</span>/Body<span class="token keyword">></span>
 <span class="token keyword"><</span>/Html<span class="token keyword">></span>
                 </code></pre>
@@ -68,12 +72,14 @@
         </div>
     </section>
     <section class="SOPin">
-        <p class="psop"><b>2) </b>Create another webpage named audio1.html which provides multiple source
-            file formats for the same audio file that plays a sound automatically with
-            controls. The browser should display the message with appropriate attribute,
-            when audio file is not supported by browser. The code must incorporate the
-            list of sound files formats (like wav, MP3 or ogg etc)<br>
-            <b>Create a file  "audio1.html" </b></p>
+        <p class="psop"><b>2) </b>Create another webpage which provide multiple source file formats for the
+            same audio file that plays a sound automatically with controls. The dimension
+            of video area should be 100*100 pixels. The browser should display the
+            message with appropriate attribute when audio file is not supported by
+            browser. The code must incorporate the list of video files formats (like
+            webM, MP4 or ogg etc).<br>
+            <b>Create a file "video2.html" </b>
+        </p>
 
         <div class="code-toolbar">
             <b>Code :</b>
@@ -81,17 +87,18 @@
 <span class="token keyword"><</span>!Doctype HTML<span class="token keyword">></span>
 <span class="token keyword"><</span>HTML<span class="token keyword">></span>
 <span class="token keyword"><</span>Head<span class="token keyword">></span>
-<span class="token keyword"><</span>title<span class="token keyword">></span>Audio controls<span class="token keyword"><</span>/title<span class="token keyword">></span> 
+<span class="token keyword"><</span>title<span class="token keyword">></span>Video controls<span class="token keyword"><</span>/title<span class="token keyword">></span> 
 <span class="token keyword"><</span>head<span class="token keyword">></span>
 <span class="token keyword"><</span>/Head<span class="token keyword">></span>
 <span class="token keyword"><</span>Body<span class="token keyword">></span>
-<span class="token keyword"><</span>H1 align="center"<span class="token keyword">></span>Audio formats<span class="token keyword"><</span>/H1<span class="token keyword">></span>
+<span class="token keyword"><</span>H1 align="center"<span class="token keyword">></span>Video<span class="token keyword"><</span>/H1<span class="token keyword">></span>
 <span class="token keyword"><</span>br<span class="token keyword">></span><span class="token keyword"><</span>br<span class="token keyword">></span>
-<span class="token keyword"><</span>audio controls autoplay<span class="token keyword">></span>
-<span class="token keyword"><</span>source src="song.mp3" type="audio/mp3"<span class="token keyword">></span>
-<span class="token keyword"><</span>source src="song.ogg" type="audio/ogg"<span class="token keyword">></span>
-<span class="token keyword"><</span>source src="song.wav" type="audio/wav"<span class="token keyword">></span>
-<span class="token keyword"><</span>/audio<span class="token keyword">></span>
+<span class="token keyword"><</span>video  width="100" height="100" controls autoplay<span class="token keyword">></span>
+<span class="token keyword"><</span>source src="movie.mp4" type="video/mp4"<span class="token keyword">></span>
+<span class="token keyword"><</span>source src="movie.ogg" type="video/ogg"<span class="token keyword">></span>
+<span class="token keyword"><</span>p<span class="token keyword">></span>Your browser does not support the
+video tag.<span class="token keyword"><</span>/p<span class="token keyword">></span>
+<span class="token keyword"><</span>/vdieo<span class="token keyword">></span>
 <span class="token keyword"><</span>/Body<span class="token keyword">></span>
 <span class="token keyword"><</span>/Html<span class="token keyword">></span>
                 </code></pre>
@@ -117,7 +124,8 @@
         </div>
         <div class="left">
             <div class="fa fa-icon">
-                <a href="https://www.instagram.com/sunnyprajapati_s5/"><i class="fa fa-instagram fa-1.50x" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/sunnyprajapati_s5/"><i class="fa fa-instagram fa-1.50x"
+                        aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-twitter fa-1.50x" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-github fa-1.50x" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-facebook fa-1.50x" aria-hidden="true"></i></a>
