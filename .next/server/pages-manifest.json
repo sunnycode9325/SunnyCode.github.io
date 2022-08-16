@@ -1,0 +1,17 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/SOP1": "pages/SOP1.html",
+  "/SOP2": "pages/SOP2.html",
+  "/SOP3": "pages/SOP3.html",
+  "/SOP4": "pages/SOP4.html",
+  "/SOP5": "pages/SOP5.html",
+  "/api/hello": "pages/api/hello.js",
+  "/components/Footer": "pages/components/Footer.html",
+  "/components/Navbar": "pages/components/Navbar.html",
+  "/": "pages/index.html",
+  "/login": "pages/login.html",
+  "/signup": "pages/signup.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
